@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Fitness Studio - Desktop About Us Wireframe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            border: 3px solid #000;
+        }
+        /* Header */
+        header {
+            border-bottom: 2px solid #000;
+            padding: 20px;
+        }
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .logo-section {
+            border: 2px solid #000;
+            padding: 30px 60px;
+            background-color: #fff;
+            font-weight: bold;
+        }
+        .page-title {
+            border: 2px solid #000;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav {
+            border: 2px solid #000;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+            background-color: #fff;
+        }
+        .nav-item {
+            border: 1px solid #000;
+            padding: 10px 20px;
+            background-color: #fff;
+        }
+        /* Main Content */
+        main {
+            padding: 20px;
+        }
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+        .section {
+            border: 2px solid #000;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #fff;
+            border: 1px solid #000;
+            font-size: 16px;
+        }
+        .text-block {
+            border: 1px solid #000;
+            padding: 15px;
+            margin: 12px 0;
+            background-color: #fff;
+        }
+        .hours-box {
+            border: 2px solid #000;
+            padding: 20px;
+            margin: 15px 0;
+            background-color: #fff;
+        }
+        .hours-line {
+            border-bottom: 1px solid #000;
+            padding: 12px 0;
+            font-size: 15px;
+        }
+        .hours-line:last-child {
+            border-bottom: none;
+        }
+        /* Form Section */
+        .form-section {
+            border: 2px solid #000;
+            padding: 25px;
+            margin: 20px 0;
+            background-color: #fff;
+        }
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .form-field {
+            border: 1px solid #000;
+            padding: 12px;
+            background-color: #fff;
+        }
+        .form-field-full {
+            border: 1px solid #000;
+            padding: 12px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        .form-label {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .input-placeholder {
+            border: 1px solid #000;
+            padding: 10px;
+            margin-top: 8px;
+            background-color: #fff;
+        }
+        .textarea-placeholder {
+            border: 1px solid #000;
+            padding: 50px 10px;
+            margin-top: 8px;
+            background-color: #fff;
+        }
+        .checkbox-group {
+            border: 1px solid #000;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        .checkbox-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .checkbox-item {
+            padding: 8px 0;
+        }
+        .button-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .submit-button {
+            border: 2px solid #000;
+            padding: 15px;
+            text-align: center;
+            background-color: #fff;
+            font-weight: bold;
+        }
+        /* Footer */
+        footer {
+            border-top: 2px solid #000;
+            padding: 20px;
+        }
+        .footer-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        .footer-section {
+            border: 2px solid #000;
+            padding: 15px;
+        }
+        .text-placeholder {
+            border: 1px solid #000;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #fff;
+        }
+        .button-placeholder {
+            border: 2px solid #000;
+            padding: 10px;
+            text-align: center;
+            margin: 10px 0;
+            background-color: #fff;
+            font-weight: bold;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .social-icon {
+            border: 2px solid #000;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            font-weight: bold;
+        }
+        .footer-nav {
+            border: 1px solid #000;
+            padding: 8px;
+            margin: 5px 0;
+            text-align: center;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="header-top">
+                <div class="logo-section">
+                    [ABC FITNESS STUDIO LOGO]
+                </div>
+                <div class="page-title">
+                    About Us - Our Story & Mission
+                </div>
+            </div>
+            <nav>
+                <div class="nav-item">Home</div>
+                <div class="nav-item">Gallery</div>
+                <div class="nav-item">About Us</div>
+                <div class="nav-item">Testimonials</div>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Two Column Layout: Description and Hours -->
+            <div class="two-column">
+                <!-- Left Column: About Description -->
+                <div class="section">
+                    <div class="section-title">About ABC Fitness Studio</div>
+                    <div class="text-block">
+                        <strong>Paragraph 1:</strong><br>
+                        ABC Fitness Studio is a local fitness haven specializing in a diverse range of classes, including yoga, Pilates, and Zumba, all geared toward promoting a healthy and active lifestyle.
+                    </div>
+                    <div class="text-block">
+                        <strong>Paragraph 2:</strong><br>
+                        With a commitment to well-being, we aim to provide our community with a welcoming space for physical and mental wellness. Our certified instructors bring years of experience and passion to every class.
+                    </div>
+                    <div class="text-block">
+                        <strong>Paragraph 3:</strong><br>
+                        Additionally, we offer a selection of high-quality fitness and training equipment to support our clients' fitness journeys. Whether you're a beginner or advanced athlete, we have something for everyone.
+                    </div>
+                    <div class="text-block">
+                        <strong>Paragraph 4:</strong><br>
+                        Our values of balance, harmony, and active living guide everything we do. We believe in fostering a supportive community where everyone can achieve their fitness goals.
+                    </div>
+                </div>
+
+                <!-- Right Column: Business Hours -->
+                <div class="section">
+                    <div class="section-title">Hours of Operation</div>
+                    <div class="hours-box">
+                        <div class="hours-line">
+                            <strong>Monday - Friday:</strong><br>
+                            6:00 AM - 8:00 PM
+                        </div>
+                        <div class="hours-line">
+                            <strong>Saturday:</strong><br>
+                            8:00 AM - 6:00 PM
+                        </div>
+                        <div class="hours-line">
+                            <strong>Sunday:</strong><br>
+                            Closed
+                        </div>
+                    </div>
+                    <div class="text-block">
+                        <strong>Location Information:</strong><br>
+                        Address placeholder: 123 Fitness Street, Your City, State ZIP
+                    </div>
+                    <div class="text-block">
+                        <strong>Contact Information:</strong><br>
+                        Phone: (555) 123-4567<br>
+                        Email: info@abcfitnessstudio.com
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feedback and Custom Order Form -->
+            <div class="section">
+                <div class="section-title">Contact Us / Feedback & Custom Orders</div>
+                
+                <div class="form-section">
+                    <!-- Row 1: Name and Email -->
+                    <div class="form-row">
+                        <div class="form-field">
+                            <div class="form-label">Full Name:</div>
+                            <div class="input-placeholder">[Text Input Field]</div>
+                        </div>
+                        <div class="form-field">
+                            <div class="form-label">Email Address:</div>
+                            <div class="input-placeholder">[Email Input Field]</div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2: Phone and Subject -->
+                    <div class="form-row">
+                        <div class="form-field">
+                            <div class="form-label">Phone Number:</div>
+                            <div class="input-placeholder">[Phone Input Field]</div>
+                        </div>
+                        <div class="form-field">
+                            <div class="form-label">Subject:</div>
+                            <div class="input-placeholder">[Text Input Field]</div>
+                        </div>
+                    </div>
+
+                    <!-- Full Width: Message -->
+                    <div class="form-field-full">
+                        <div class="form-label">Feedback / Custom Order Information:</div>
+                        <div class="textarea-placeholder">
+                            [Multi-line Text Area]<br>
+                            Enter your feedback or custom order details here
+                        </div>
+                    </div>
+
+                    <!-- Checkboxes -->
+                    <div class="checkbox-group">
+                        <div class="form-label">I am interested in (select all that apply):</div>
+                        <div class="checkbox-row">
+                            <div class="checkbox-item">☐ General Feedback</div>
+                            <div class="checkbox-item">☐ Custom Training Package</div>
+                            <div class="checkbox-item">☐ Private Sessions</div>
+                            <div class="checkbox-item">☐ Equipment Purchase</div>
+                            <div class="checkbox-item">☐ Membership Information</div>
+                            <div class="checkbox-item">☐ Class Schedule Inquiry</div>
+                        </div>
+                    </div>
+
+                    <!-- Submit Buttons -->
+                    <div class="button-row">
+                        <div class="submit-button">
+                            [SUBMIT BUTTON]
+                        </div>
+                        <div class="submit-button">
+                            [CLEAR FORM BUTTON]
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="section-title" style="font-size: 14px; padding: 8px;">Subscribe to Newsletter</div>
+                    <div class="text-placeholder">Email Input Field</div>
+                    <div class="button-placeholder">[SUBSCRIBE BUTTON]</div>
+                </div>
+                
+                <div class="footer-section">
+                    <div class="section-title" style="font-size: 14px; padding: 8px;">Follow Us on Social Media</div>
+                    <div class="social-icons">
+                        <div class="social-icon">FB</div>
+                        <div class="social-icon">IG</div>
+                        <div class="social-icon">TW</div>
+                        <div class="social-icon">YT</div>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <div class="section-title" style="font-size: 14px; padding: 8px;">Quick Links</div>
+                    <div class="footer-nav">Home</div>
+                    <div class="footer-nav">Gallery</div>
+                    <div class="footer-nav">About Us</div>
+                    <div class="footer-nav">Testimonials</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

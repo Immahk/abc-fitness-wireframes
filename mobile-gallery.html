@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Fitness Studio - Mobile Gallery Wireframe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            max-width: 375px;
+            margin: 0 auto;
+            border: 2px solid #000;
+        }
+        .container {
+            padding: 10px;
+        }
+        /* Header */
+        header {
+            border: 2px solid #000;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .header-top-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .page-title {
+            border: 1px solid #000;
+            padding: 10px;
+            flex-grow: 1;
+            text-align: center;
+            margin-right: 10px;
+        }
+        .hamburger-menu {
+            border: 2px solid #000;
+            padding: 15px 20px;
+            background-color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .logo-section {
+            border: 1px solid #000;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+        /* Main Content */
+        main {
+            border: 2px solid #000;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .cart-button {
+            border: 2px solid #000;
+            padding: 12px;
+            text-align: center;
+            margin-bottom: 15px;
+            background-color: #fff;
+            font-weight: bold;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 15px;
+            padding: 8px;
+            background-color: #fff;
+            border: 1px solid #000;
+        }
+        /* Product Table */
+        .product-table {
+            border: 2px solid #000;
+            margin-bottom: 15px;
+        }
+        .product-row {
+            border-bottom: 1px solid #000;
+            padding: 15px;
+        }
+        .product-row:last-child {
+            border-bottom: none;
+        }
+        .image-placeholder {
+            border: 2px solid #000;
+            padding: 60px 20px;
+            text-align: center;
+            margin-bottom: 10px;
+            background-color: #fff;
+            background-image: 
+                linear-gradient(to bottom right, transparent calc(50% - 1px), #000 calc(50% - 1px), #000 calc(50% + 1px), transparent calc(50% + 1px)),
+                linear-gradient(to bottom left, transparent calc(50% - 1px), #000 calc(50% - 1px), #000 calc(50% + 1px), transparent calc(50% + 1px));
+        }
+        .product-name {
+            border: 1px solid #000;
+            padding: 8px;
+            margin-bottom: 8px;
+            font-weight: bold;
+            background-color: #fff;
+        }
+        .product-description {
+            border: 1px solid #000;
+            padding: 10px;
+            margin-bottom: 8px;
+            background-color: #fff;
+        }
+        .product-price {
+            border: 1px solid #000;
+            padding: 6px;
+            margin-bottom: 10px;
+            text-align: center;
+            background-color: #fff;
+        }
+        .add-to-cart-button {
+            border: 2px solid #000;
+            padding: 10px;
+            text-align: center;
+            background-color: #fff;
+            font-weight: bold;
+        }
+        /* Footer */
+        footer {
+            border: 2px solid #000;
+            padding: 15px;
+        }
+        .footer-section {
+            border: 1px solid #000;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .social-icon {
+            border: 1px solid #000;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+        }
+        .text-placeholder {
+            border: 1px solid #000;
+            padding: 8px;
+            margin: 5px 0;
+            background-color: #fff;
+        }
+        .button-placeholder {
+            border: 2px solid #000;
+            padding: 10px;
+            text-align: center;
+            margin: 10px 0;
+            background-color: #fff;
+            font-weight: bold;
+        }
+        .footer-nav {
+            border: 1px solid #000;
+            padding: 8px;
+            margin: 5px 0;
+            text-align: center;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo-section">
+                [ABC Fitness Studio Logo]
+            </div>
+            <div class="header-top-row">
+                <div class="page-title">
+                    Gallery Page Title
+                </div>
+                <div class="hamburger-menu">
+                    ☰
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- View Shopping Cart Button -->
+            <div class="cart-button">
+                [View Shopping Cart Button]
+            </div>
+
+            <div class="section-title">Classes & Products</div>
+
+            <!-- Product Table/List -->
+            <div class="product-table">
+                <!-- Product 1 -->
+                <div class="product-row">
+                    <div class="image-placeholder">
+                        [Product Image]<br>
+                        Individual Yoga Session
+                    </div>
+                    <div class="product-name">Individual Yoga Session</div>
+                    <div class="product-description">
+                        Brief description: One-on-one personalized yoga instruction tailored to your fitness level.
+                    </div>
+                    <div class="product-price">Price: $XX.XX</div>
+                    <div class="add-to-cart-button">[Add to Cart]</div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-row">
+                    <div class="image-placeholder">
+                        [Product Image]<br>
+                        Group Yoga Session
+                    </div>
+                    <div class="product-name">Group Yoga Session</div>
+                    <div class="product-description">
+                        Brief description: Join our community yoga classes with expert instructors.
+                    </div>
+                    <div class="product-price">Price: $XX.XX</div>
+                    <div class="add-to-cart-button">[Add to Cart]</div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-row">
+                    <div class="image-placeholder">
+                        [Product Image]<br>
+                        Pilates Session
+                    </div>
+                    <div class="product-name">Individual Pilates Session</div>
+                    <div class="product-description">
+                        Brief description: Core strengthening Pilates with certified instructors.
+                    </div>
+                    <div class="product-price">Price: $XX.XX</div>
+                    <div class="add-to-cart-button">[Add to Cart]</div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-row">
+                    <div class="image-placeholder">
+                        [Product Image]<br>
+                        Group Pilates
+                    </div>
+                    <div class="product-name">Group Pilates Session</div>
+                    <div class="product-description">
+                        Brief description: Group Pilates classes for all skill levels.
+                    </div>
+                    <div class="product-price">Price: $XX.XX</div>
+                    <div class="add-to-cart-button">[Add to Cart]</div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-row">
+                    <div class="image-placeholder">
+                        [Product Image]<br>
+                        Kickboxing
+                    </div>
+                    <div class="product-name">Kickboxing Session</div>
+                    <div class="product-description">
+                        Brief description: High-energy kickboxing for cardio and strength.
+                    </div>
+                    <div class="product-price">Price: $XX.XX</div>
+                    <div class="add-to-cart-button">[Add to Cart]</div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-row">
+                    <div class="image-placeholder">
+                        [Product Image]<br>
+                        Yoga Mat
+                    </div>
+                    <div class="product-name">Premium Yoga Mat</div>
+                    <div class="product-description">
+                        Brief description: High-quality non-slip yoga mat with studio logo.
+                    </div>
+                    <div class="product-price">Price: $XX.XX</div>
+                    <div class="add-to-cart-button">[Add to Cart]</div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-section">
+                <div class="section-title">Subscribe to Newsletter</div>
+                <div class="text-placeholder">Email Input Field</div>
+                <div class="button-placeholder">[Subscribe Button]</div>
+            </div>
+            
+            <div class="footer-section">
+                <div class="section-title">Follow Us</div>
+                <div class="social-icons">
+                    <div class="social-icon">FB</div>
+                    <div class="social-icon">IG</div>
+                    <div class="social-icon">TW</div>
+                    <div class="social-icon">YT</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

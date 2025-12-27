@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Fitness Studio - Mobile Testimonials Wireframe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            max-width: 375px;
+            margin: 0 auto;
+            border: 2px solid #000;
+        }
+        .container {
+            padding: 10px;
+        }
+        /* Header */
+        header {
+            border: 2px solid #000;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .header-top-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .page-title {
+            border: 1px solid #000;
+            padding: 10px;
+            flex-grow: 1;
+            text-align: center;
+            margin-right: 10px;
+        }
+        .hamburger-menu {
+            border: 2px solid #000;
+            padding: 15px 20px;
+            background-color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .logo-section {
+            border: 1px solid #000;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+        /* Main Content */
+        main {
+            border: 2px solid #000;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .section {
+            border: 1px solid #000;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            padding: 5px;
+            background-color: #fff;
+        }
+        /* Testimonial Cards */
+        .testimonial-card {
+            border: 2px solid #000;
+            padding: 15px;
+            margin: 15px 0;
+            background-color: #fff;
+        }
+        .customer-photo {
+            border: 2px solid #000;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 10px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                linear-gradient(to bottom right, transparent calc(50% - 1px), #000 calc(50% - 1px), #000 calc(50% + 1px), transparent calc(50% + 1px)),
+                linear-gradient(to bottom left, transparent calc(50% - 1px), #000 calc(50% - 1px), #000 calc(50% + 1px), transparent calc(50% + 1px));
+        }
+        .customer-name {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+            background-color: #fff;
+        }
+        .testimonial-text {
+            border: 1px solid #000;
+            padding: 12px;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+        .rating {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+            background-color: #fff;
+        }
+        /* Community Section */
+        .highlight-box {
+            border: 1px solid #000;
+            padding: 12px;
+            margin: 10px 0;
+            background-color: #fff;
+        }
+        .image-placeholder {
+            border: 2px solid #000;
+            padding: 50px 20px;
+            text-align: center;
+            margin: 10px 0;
+            background-color: #fff;
+            background-image: 
+                linear-gradient(to bottom right, transparent calc(50% - 1px), #000 calc(50% - 1px), #000 calc(50% + 1px), transparent calc(50% + 1px)),
+                linear-gradient(to bottom left, transparent calc(50% - 1px), #000 calc(50% - 1px), #000 calc(50% + 1px), transparent calc(50% + 1px));
+        }
+        .text-block {
+            border: 1px solid #000;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #fff;
+        }
+        .button-placeholder {
+            border: 2px solid #000;
+            padding: 10px;
+            text-align: center;
+            margin: 10px 0;
+            background-color: #fff;
+            font-weight: bold;
+        }
+        /* Footer */
+        footer {
+            border: 2px solid #000;
+            padding: 15px;
+        }
+        .footer-section {
+            border: 1px solid #000;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .social-icon {
+            border: 1px solid #000;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+        }
+        .text-placeholder {
+            border: 1px solid #000;
+            padding: 8px;
+            margin: 5px 0;
+            background-color: #fff;
+        }
+        .footer-nav {
+            border: 1px solid #000;
+            padding: 8px;
+            margin: 5px 0;
+            text-align: center;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo-section">
+                [ABC Fitness Studio Logo]
+            </div>
+            <div class="header-top-row">
+                <div class="page-title">
+                    Customer Testimonials
+                </div>
+                <div class="hamburger-menu">
+                    ☰
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Customer Testimonials Section -->
+            <div class="section">
+                <div class="section-title">What Our Clients Say</div>
+
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="customer-photo">[Photo]</div>
+                    <div class="customer-name">Customer Name 1</div>
+                    <div class="testimonial-text">
+                        "Testimonial quote about their experience with ABC Fitness Studio. Positive feedback about classes and instructors."
+                    </div>
+                    <div class="rating">★★★★★ 5-Star Rating</div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="customer-photo">[Photo]</div>
+                    <div class="customer-name">Customer Name 2</div>
+                    <div class="testimonial-text">
+                        "Another testimonial sharing transformation story and appreciation for the welcoming community atmosphere."
+                    </div>
+                    <div class="rating">★★★★★ 5-Star Rating</div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="customer-photo">[Photo]</div>
+                    <div class="customer-name">Customer Name 3</div>
+                    <div class="testimonial-text">
+                        "Client feedback highlighting the quality of equipment and expertise of the trainers."
+                    </div>
+                    <div class="rating">★★★★★ 5-Star Rating</div>
+                </div>
+
+                <div class="button-placeholder">
+                    [View More Testimonials]
+                </div>
+            </div>
+
+            <!-- Community Involvement Section -->
+            <div class="section">
+                <div class="section-title">Community Involvement</div>
+                
+                <div class="highlight-box">
+                    <strong>Initiative Title:</strong> Free Community Yoga Every Sunday
+                </div>
+                <div class="text-block">
+                    Description of community program and its impact on local wellness.
+                </div>
+                
+                <div class="image-placeholder">
+                    [Community Event Photo]
+                </div>
+
+                <div class="highlight-box">
+                    <strong>Initiative Title:</strong> Youth Fitness Programs
+                </div>
+                <div class="text-block">
+                    Information about youth programs and community partnerships.
+                </div>
+            </div>
+
+            <!-- Events and Collaborations -->
+            <div class="section">
+                <div class="section-title">Events & Collaborations</div>
+                
+                <div class="highlight-box">
+                    <strong>Event Title:</strong> Annual Fitness Challenge
+                </div>
+                <div class="text-block">
+                    Description: Community-wide fitness event raising funds for local charity.
+                </div>
+                <div class="text-block">
+                    <strong>Date:</strong> Event date and time information
+                </div>
+
+                <div class="image-placeholder">
+                    [Event Photo]
+                </div>
+
+                <div class="highlight-box">
+                    <strong>Partnership:</strong> Collaboration with Local Health Centers
+                </div>
+                <div class="text-block">
+                    Details about partnerships and collaborative wellness initiatives.
+                </div>
+
+                <div class="button-placeholder">
+                    [Sign Up for Events]
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-section">
+                <div class="section-title">Subscribe to Newsletter</div>
+                <div class="text-placeholder">Email Input Field</div>
+                <div class="button-placeholder">[Subscribe Button]</div>
+            </div>
+            
+            <div class="footer-section">
+                <div class="section-title">Follow Us</div>
+                <div class="social-icons">
+                    <div class="social-icon">FB</div>
+                    <div class="social-icon">IG</div>
+                    <div class="social-icon">TW</div>
+                    <div class="social-icon">YT</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
